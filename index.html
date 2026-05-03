@@ -17,7 +17,7 @@
 
         <nav class="site-nav">
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="projecten.html">Projecten</a></li>
                 <li><a href="ervaring.html">Ervaring</a></li>
             </ul>
@@ -27,8 +27,9 @@
 
 <main>
     <section class="hero">
-        <div class="container">
+        <div class="container hero-content">
             <div class="hero-text">
+                <p class="label">Portfolio website</p>
                 <h1>Hallo, ik ben <span class="highlight">Lio</span></h1>
                 <p>
                     Ik ben een gemotiveerde student die zich specialiseert in web development,
@@ -36,23 +37,43 @@
                 </p>
 
                 <div class="hero-buttons">
-                    <a href="projecten.html" class="btn">Bekijk mijn projecten</a>
-                    <a href="ervaring.html" class="btn">Mijn ervaring</a>
+                    <a href="projecten.html" class="btn primary">Bekijk mijn projecten</a>
+                    <a href="ervaring.html" class="btn secondary">Mijn ervaring</a>
                 </div>
             </div>
 
             <div class="hero-image">
-                <img src="images/Foto_CV.jpg" alt="Portret van Lio Smeers">
+                <img src="images/Foto_CV.jpg" alt="Portretfoto van Lio Smeers">
             </div>
+        </div>
+    </section>
+
+    <section class="intro-section">
+        <div class="container intro-grid">
+            <article class="info-card">
+                <h2>Webdesign</h2>
+                <p>Ik bouw overzichtelijke websites met HTML, CSS en JavaScript.</p>
+            </article>
+
+            <article class="info-card">
+                <h2>Design</h2>
+                <p>Ik werk graag met lay-out, kleur, typografie en visuele identiteit.</p>
+            </article>
+
+            <article class="info-card">
+                <h2>Beeld</h2>
+                <p>Door mijn achtergrond in fotografie en film let ik sterk op sfeer en storytelling.</p>
+            </article>
         </div>
     </section>
 </main>
 
 <footer class="site-footer">
     <div class="container">
-        <p>2026 Lio Smeers portfolio</p>
+        <p>2026 Lio Smeers — Portfolio</p>
     </div>
 </footer>
 
+<script src="js/menu.js"></script>
 </body>
 </html>
